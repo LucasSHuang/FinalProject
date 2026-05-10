@@ -360,7 +360,7 @@ class App:
                             webbrowser.open(web_url)
                             return
 
-            # If mo NBA player found just search up player name on ESPN
+            # If no NBA player found just search up player name on ESPN
             webbrowser.open(f"https://www.espn.com/search/_/q/{query}")
 
         # If there is an error somehow state it
